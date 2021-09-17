@@ -10,6 +10,7 @@ class TutorialDataService {
   }
 
   create(data) {
+    debugger
     return http.post("/tutorials", data);
   }
 

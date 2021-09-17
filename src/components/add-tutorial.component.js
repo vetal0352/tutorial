@@ -34,7 +34,7 @@ class AddTutorial extends Component {
 
     saveTutorial() {
         const { title, description } = this.state;
-
+        debugger;
         this.props
             .createTutorial(title, description)
             .then((data) => {
