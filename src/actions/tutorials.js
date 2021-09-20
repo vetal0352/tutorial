@@ -10,7 +10,7 @@ import TutorialDataService from "../services/tutorial.service";
 
 export const createTutorial = (title, description) => async (dispatch) => {
     try {
-        debugger
+        //debugger
         const res = await TutorialDataService.create({ title, description });
 
         dispatch({
